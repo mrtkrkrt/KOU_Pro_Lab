@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:id="gridPane" alignment="center" hgap="10" prefHeight="1100.0" prefWidth="1366.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="1050.0" fitWidth="1300.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+         <image>
+            <Image url="@../Images/masa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="userImage1" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="-2.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage2" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="162.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage3" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="318.5" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage4" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="480.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage5" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="640.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage6" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="800.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage7" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="964.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="userImage8" fitHeight="264.0" fitWidth="170.0" onMouseClicked="#userClicked" pickOnBounds="true" preserveRatio="true" translateX="1128.0" translateY="395.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage1" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="-3.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage2" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="161.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage3" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="318.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage4" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="478.0" translateY="-399.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage5" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="638.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage6" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="798.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage7" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="963.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="compImage8" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="1126.0" translateY="-398.0" GridPane.columnIndex="1" />
+      <ImageView fx:id="pcImage" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="727.0" translateY="-46.0" GridPane.columnIndex="1" />
+      <Text fx:id="userSkor" fill="WHITE" scaleY="6.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="363.7367420196533" GridPane.columnIndex="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="pcSkor" fill="#f8f4f4" scaleY="6.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" translateX="1000.0" wrappingWidth="298.1367268562317" GridPane.columnIndex="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="kapisanKart" fitHeight="264.0" fitWidth="170.0" pickOnBounds="true" preserveRatio="true" translateX="368.0" translateY="-46.0" GridPane.columnIndex="1" />
+      <Text fx:id="winText" fill="WHITE" scaleY="5.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" translateX="450.0" translateY="-200.0" wrappingWidth="362.9367117881775" GridPane.columnIndex="1">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
