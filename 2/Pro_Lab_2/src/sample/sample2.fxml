@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor2" prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sample2">
+   <children>
+      <ImageView fx:id="img3" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -5;" />
+      <ImageView fx:id="sirine" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -5;" />
+      <ImageView fx:id="azman" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -5;" />
+      <ImageView fx:id="gargamel" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -5;" />
+      <ImageView fx:id="altın1" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -3;" />
+      <ImageView fx:id="altın2" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -3;" />
+      <ImageView fx:id="altın3" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -3;" />
+      <ImageView fx:id="altın4" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -3;" />
+      <ImageView fx:id="altın5" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -3;" />
+      <ImageView fx:id="mantar" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" style="-fx-view-order: -4;" />
+      <Text fx:id="scorText" fill="#ff0303" layoutX="684.0" layoutY="25.0" scaleX="5.0" scaleY="5.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>

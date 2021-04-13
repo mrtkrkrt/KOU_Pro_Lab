@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mouseTransparent="true" prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sample3">
+   <children>
+      <Text fx:id="overText" fill="#fdfdfd" layoutX="200.0" layoutY="210.0" scaleX="2.0" scaleY="10.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-stroke: black; -fx-stroke-width: 1;" textAlignment="CENTER" wrappingWidth="297.73670959472656">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <Button fx:id="playAgainButton" layoutX="83.0" layoutY="424.0" mnemonicParsing="false" onAction="#loadFirstScene" prefHeight="100.0" prefWidth="250.0" text="PLAY AGAİN" textAlignment="CENTER" textOverrun="CLIP">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Button fx:id="quitButton" layoutX="405.0" layoutY="424.0" mnemonicParsing="false" onAction="#quit" prefHeight="100.0" prefWidth="250.0" text="QUİT" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

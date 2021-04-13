@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="button" layoutX="303.0" layoutY="549.0" mnemonicParsing="false" onAction="#load" prefHeight="50.0" prefWidth="99.0" style="-fx-border-color: black;" text="CHOOSE" />
+      <Rectangle fx:id="rct1" arcHeight="5.0" arcWidth="5.0" disable="true" fill="#ffffff0f" height="220.0" layoutX="120.0" layoutY="190.0" stroke="RED" strokeType="INSIDE" style="-fx-stroke-width: 0;" width="200.0" />
+      <Rectangle fx:id="rct2" arcHeight="5.0" arcWidth="5.0" disable="true" fill="#1f93ff00" height="220.0" layoutX="450.0" layoutY="190.0" stroke="RED" strokeType="INSIDE" style="-fx-stroke-width: 0;" width="200.0" />
+      <ImageView fx:id="img1" fitHeight="200.0" fitWidth="200.0" layoutX="120.0" layoutY="200.0" onMouseClicked="#choose" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Tembel_200.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="img2" fitHeight="200.0" fitWidth="200.0" layoutX="450.0" layoutY="200.0" onMouseClicked="#choose" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/Gözlüklü_200.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
