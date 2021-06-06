@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddAlbum">
+   <children>
+      <Button fx:id="backButton" layoutX="116.0" layoutY="44.0" mnemonicParsing="false" text="GERİ" />
+      <Text layoutX="569.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADMİN KONTROL PANELİ">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text layoutX="431.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALBÜM ADI" />
+      <Text layoutX="431.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ŞARKICI ADI" />
+      <Text layoutX="429.0" layoutY="345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TÜR ADI" />
+      <Text layoutX="429.0" layoutY="386.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TARİH" />
+      <TextField fx:id="albumText" layoutX="600.0" layoutY="239.0" />
+      <TextField fx:id="singerText" layoutX="600.0" layoutY="281.0" />
+      <TextField fx:id="typeText" layoutX="600.0" layoutY="328.0" />
+      <TextField fx:id="dateText" layoutX="600.0" layoutY="369.0" />
+      <Button fx:id="addButton" layoutX="623.0" layoutY="469.0" mnemonicParsing="false" text="EKLE" />
+   </children>
+</AnchorPane>

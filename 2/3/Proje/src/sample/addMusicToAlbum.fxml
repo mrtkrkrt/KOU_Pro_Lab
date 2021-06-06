@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddMusicToAlbum">
+   <children>
+      <Button fx:id="addButton" layoutX="97.0" layoutY="256.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="121.0" text="EKLE">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Button>
+      <ScrollPane fx:id="scrollPane" layoutX="279.0" layoutY="104.0" prefHeight="593.0" prefWidth="679.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+        </content>
+      </ScrollPane>
+      <Button fx:id="backButton" layoutX="192.0" layoutY="25.0" mnemonicParsing="false" text="GERİ" />
+   </children>
+</AnchorPane>
