@@ -14,7 +14,8 @@ Kocaeli University Programming Lab Lecture Projects
 * Programmin Lab 2
   
   * Maze of selected player to Şirine before she finishes her points in must reach. Each step as the player navigates through the maze enemy characters to reach the player when thrown calculates the shortest path needed and follows that path. Tries to reach the player. made with javafx and OOP in Java. Using Dİjkstra Algorithm.
-      [![image](https://user-images.githubusercontent.com/55550212/160241531-02114090-b867-470a-9159-522c43128baf.png)](https://github.com/mrtkrkrt/KOU_Pro_Lab/tree/main/2/1)
+     
+     [![image](https://user-images.githubusercontent.com/55550212/160241531-02114090-b867-470a-9159-522c43128baf.png)](https://github.com/mrtkrkrt/KOU_Pro_Lab/tree/main/2/1)
       
   * Car wash machine by simulating Stellaris card on Proteus program
   
